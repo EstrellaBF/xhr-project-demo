@@ -8,6 +8,34 @@ main {
   background: #14975c;
 }
 
+.title {
+  font-family: 'Sanchez', serif;
+}
+
 .button-search {
   background-color: #5ab84e;
+}
+
+#search-form label {
+  font-size: 1.5rem;
+}
+
+#search-form {
+  padding: 1.5em 0;
+}
+
+#search-form input::placeholder {
+  padding: 0 1em;
+}
+
+.articleClass {
+  /* border: 1px solid grey; */
+  margin: 3em;
+  padding: 2em;
+  box-shadow: 1px 1px 9px -1px rgba(0, 0, 0, 0.6);
+}
+
+.articleClass li:first-child {
+  text-transform: uppercase;
+  font-weight: 500;
 }
